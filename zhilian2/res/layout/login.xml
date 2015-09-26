@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/LinearLayout_login"
+    >
+    
+    <EditText 
+        android:id="@+id/eText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputPhoneOrEmail"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        />
+    <EditText 
+        android:id="@+id/eText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputPassword"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/eText1"
+        />
+    
+    <Button 
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:background="#DCDCDC"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/eText2"
+        />
+    
+    <TextView 
+        android:id="@+id/tView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgetPassword"
+        android:textColor="#0000CD"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn1"
+        />
+
+</RelativeLayout>
