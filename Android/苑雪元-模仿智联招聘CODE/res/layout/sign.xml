@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayout_sign"
+     >
+    
+    <EditText 
+        android:id="@+id/eText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputPhone"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        
+        />
+    <EditText 
+        android:id="@+id/eText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputYanZheng"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawableRight="@drawable/yanzheng"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/eText3"
+        />
+    <Button 
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sure"
+        android:layout_below="@id/eText4"
+        android:layout_marginTop="50dp"
+        android:background="#DCDCDC"
+        />
+
+</RelativeLayout>

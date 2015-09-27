@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 标题 -->
+    <string name="app_name">智联招聘</string>
+    <string name="app_login">登录</string>
+    <!-- item -->
+    <string name="action_login">登录</string>
+    <string name="action_select">求职宝典</string>
+    <string name="action_money">薪酬查询</string>
+    <string name="action_advices">意见反馈</string>
+    <string name="action_recommend">应用推荐</string>
+    <string name="action_settings">设置</string>
+    <!-- 主界面中的 -->
+    <string name="textView_recommend">职位推荐</string>
+    <string name="textView_feedback">投递反馈</string>
+    <string name="textView_invite">职位邀请</string>
+    <string name="textView_refurbish">刷新简历</string>
+    
+    <!-- sign -->
+    <string name="sure">确定</string>
+    <string name="inputPhone">请输入手机号</string>
+    <string name="inputYanZheng">请输入验证码</string>
+    
+    <!-- login -->
+    <string name="login">登录</string>
+    <string name="inputPhoneOrEmail">请输入手机号/邮箱</string>
+    <string name="inputPassword">请输入密码</string>
+    <string name="forgetPassword">忘记密码？</string>
+    
+    <!-- search -->
+    <string name="pleaseInput">请输入关键字/职位/公司/地点搜索</string>
+    <string name="search">搜索</string>
+
+
+</resources>
